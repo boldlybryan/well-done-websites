@@ -1,0 +1,54 @@
+---
+layout: layouts/base.njk
+title: Submit a website
+navtitle: Submit a Website
+tags:
+  - nav
+templateClass: tmpl-post
+---
+<h1>We want your websites!</h1>
+<p>WDW is always on the hunt for the best sites on the internet. When you come across a stellar site, let us know! Please consider the criteria below and tell us why it's a Well-done Website.</p>
+<p></p>
+<ul>
+  <li>Easy-to-use. Doesn't have non-standard interaction patterns.</li>
+  <li>Customer-centric copy. We dislike self-righteous companies.</li>
+  <li>Legible typography. Good choice in typeface and appropriate whitespace.</li>
+  <li>Personality. It's wonderfully art-directed and matches uniqueness of brand.</li>
+  <li>Mobile-friendly.</li>
+  <li>Performant. It doesn't take forever to load and on-page intereactions are smooth.</li>
+  <li>Accesible. Proper color contrast, able to use without a mouse, not seizure inducing.</li>
+</ul>
+<form name="contact" netlify>
+
+    <label for="name">Your name</label>
+    <input type="text" name="name" />
+    <label for="email">Email</label>
+    <input type="email" name="email" />
+    <label for="website">Website URL</label>
+    <input type="text" name="website" />
+    <label for="reason">Why is it Well-done?</label>
+    <textarea name="reason" id="reason" cols="30" rows="10"></textarea>
+    <button type="submit">Send it!</button>
+</form>
+<style>
+label, input, textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"]{
+  margin-bottom: 1rem;
+}
+
+button[type="submit"]{
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  background-color: #a3e2e7;
+  color: #393939;
+  border: 0;
+  border-radius: 2px;
+  font-weight: bold;
+}
+</style>
