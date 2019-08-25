@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Well-done Websites",
+  "url": "https://welldonewebsites.com/",
+  "description": "A showcase for the best websites on the internet",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://welldonewebsites.com/feed/feed.xml",
+    "id": "https://welldonewebsites.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Bryan King",
+    "email": "welldonewebsites@gmail.com"
   }
 }
